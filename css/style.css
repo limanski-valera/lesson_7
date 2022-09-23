@@ -1,0 +1,102 @@
+/* ================================ Підключення шрифтів =========================================================== */
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+/* ================================ Основні стилі ================================================================= */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #424551;
+}
+[class*="__container"] {
+    max-width: 830px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header__container {
+    padding-top: 32px;
+}
+.paper__container {
+    padding-bottom: 92px;
+}
+.main-title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 98px;
+}
+.paper__container img {
+    max-width: 100%;
+    margin-bottom: 60px;
+    border-radius: 4px;
+}
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.text {
+    font-size: 16px;
+    line-height: 160%;
+}
+.first-text {
+    margin-bottom: 28px;
+}
+.second-text {
+    margin-bottom: 48px;
+}
+.comment {
+    padding-left: 58px;
+    margin-bottom: 48px;
+}
+.bold-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+.list-header {
+    margin-bottom: 24px;
+}
+.list {
+    margin-bottom: 24px;
+    padding-left: 32px;
+}
+.list li {
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+.last-list-item {
+    margin-bottom: 0px;
+}
+/* ================================ Проробка властивостей ================================================================= */
+.height {
+    padding: 50px 0;
+}
+.background-color {
+    background-color: #424551;
+}
+.background-text {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.background-image {
+    background-image: url(../img/02.jfif);
+}
+.background-gradient {
+    background-image: linear-gradient(45deg, rgb(86, 57, 57) 0%, rgb(211, 106, 106) 100%);
+}
+.background-position {
+    background: url(../img/03.jfif) right / contain no-repeat;
+}
+.background {
+    background: rgb(141, 141, 9) url(../img/04.jfif) center / cover no-repeat;
+}
+.footer__container {
+    padding: 20px 0 10px;
+}
